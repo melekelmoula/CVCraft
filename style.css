@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: #363636;
+}
+
+::-webkit-scrollbar{
+	display: none;
+}
+
+.cv-links-container img,
+.logout-container img {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    max-height: 300px; /* Adjust the maximum height as needed */
+}
+
+#first {
+width: 154px;
+    height: 61px;
+    margin-left: 170px;
+}
+
+
+#second {
+width: 150px;
+    margin-left: 170px;
+}
+
+
+body {
+	width: 100%;
+	min-height: 460px;
+	height: 100vh;
+	overflow: scroll;
+	background: url("https://i.pinimg.com/564x/0e/58/17/0e5817b2f5a8e955103255569de24896.jpg")
+		no-repeat center center;
+	background-size: cover;
+	backdrop-filter: blur(7px);
+	display: grid;
+	place-content: center;
+}
+
+.error {
+    color: #142b54;
+    
+    
+}
+
+#signup-form input[type="text"]::placeholder {
+ font-size: 15px;
+}
+#signup-form input[type="password"]::placeholder {
+ font-size: 15px;
+}
+#signup-form input[type="submit"] {
+ font-size: 15px;
+}
+
+
+ input[type="submit"][name="delete"] {
+margin-left: 197px;
+background-image: url('Files/deleteaccount.png'); /* Specify the path to your image */
+	min-width: 0px;
+	min-height: 0px;
+        width: 105px; /* Adjust width as needed */
+        height: 42px; 
+    
+
+border: 2px solid transparent;
+box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+        background-color: transparent;
+background-size: 100% 100%
+     
+
+    }
+#workyear{
+display: flex;
+  align-items: center;
+}
+#studyyear{
+display: flex;
+  align-items: center;
+}
+.container {
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+padding-bottom: 150px;
+	
+height: 100%;
+    margin-top: 50px;
+	
+
+}
+#profile-image2 {
+margin-left: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.logout {
+    display: block; /* This allows setting width and height to the anchor tag */
+    width: 100px; /* Adjust this as per your requirement */
+    height: 100px; /* Adjust this as per your requirement */
+}
+
+.logout img {
+    width: 100%; /* Ensures the image takes the full width of the anchor tag */
+    height: auto; /* Maintains the aspect ratio of the image */
+
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+
+.cv-links-container {
+    display: flex;
+}
+
+.cv-link {
+    margin-right: 10px;
+}
+.cv-links-container .cv-link img {
+   
+margin-right: 10px;
+margin-left: 10px;
+}
+.banner {
+	height: 500px;
+	
+	width: 399px;
+
+	background: rgb(0, 0, 0, 0.4);
+	border-radius: 10px 0 0 10px;
+	transition: .4s;
+}
+
+.banner * {
+	margin: 40px;
+	color: #ccc;
+	cursor: default;
+	width: 333px;
+}
+
+.form {
+	height: 500px;
+	
+	width: 323px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0 10px 10px 0;
+	
+}
+
+#profile-image {
+	pointer-events: none;
+	margin: 45px 0 20px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form small:first-of-type{
+	margin-bottom: 20px;
+}
+
+a {
+	font-size: small;
+	color: #1663be;
+	
+}
+
+#basicInfo {
+    color: white;
+}
+
+input {
+	margin-bottom: 10px;
+	padding: 8px 15px;
+	width: 212px;
+	border: 2px solid #ccc;
+	color: #000;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+input:focus {
+	outline: 0;
+	transition: 0.5s;
+	border: 2px solid #646464;
+}
+
+/* ::-ms-reveal {
+	filter: invert(100%);
+} */
+
+input[type="submit"]  {
+	min-width: 215px;
+	min-height: 38px;
+	border: 2px solid #142b54;
+
+	background: #142b54;
+	color: #fff;
+	
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	
+}
+
+
+
+#signup-details input[type="text"]::placeholder {
+ font-size: 13px;
+}
+
+#signup-details input[type="number"]::placeholder {
+ font-size: 13px;
+}
+
+#signup-details input[type="phone"]::placeholder {
+ font-size: 13px;
+}
+
+#signup-details input[type="email"]::placeholder {
+ font-size: 13px;
+}
+
+#signup-details {
+
+
+}
+
+#signup-details legend {
+    color: #fff; /* Change legend text color to white */
+    font-weight: bold;
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+#signup-details label {
+    color: #fff; /* Change label text color to white */
+    margin-bottom: 2px; /* Further reduced margin */
+}
+
+#signup-details input[type="text"] {
+  width: 170px; /* Adjust the width as needed */
+}
+#signup-details input[type="email"] {
+  width: 170px; /* Adjust the width as needed */
+}
+#signup-details input[type="phone"] {
+  width: 170px; /* Adjust the width as needed */
+}
+
+#signup-details input[type="number"] {
+  width: 170px; /* Adjust the width as needed */
+}
+#signup-details textarea {
+    padding: 4px; /* Further decrease padding for inputs */
+    margin-bottom: 5px; /* Reduced margin */
+    width: calc(100% - 8px); /* Make inputs fill the width of the container */
+    font-size: small; /* Further decrease font size for inputs */
+    font-family: Arial, sans-serif; /* Change font to Arial */
+
+}
+
+#signup-details input[type="file"] {
+    margin-top: 5px; /* Adjust margin for file input */
+}
+
+#signup-details input[type="submit"] {
+    min-width: 100%; /* Make submit button full width */
+    padding: 5px; /* Adjust padding */
+    font-size: small; /* Further decrease font size */
+    background-color: #fff; /* Change button background color */
+    color: #142b54; /* Change button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* Change font to Arial */
+
+}
+
+#signup-details input[type="submit"]:hover {
+    background-color: #ccc; /* Change background color on hover */
+}
+
+
+
+
+button:active {
+	transform: scale(1.05);
+	box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#forgot{
+	opacity: .6;
+}
+
+#forgot:hover{
+	opacity: 1;
+}
+
+@media (max-width: 720px) {
+	.banner {
+		position: absolute;
+		transform: translatex(10%);
+		opacity: 0;
+	}
+	.content {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.form {
+		border-radius: 10px;
+	}
+}
